@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="display-4 fw-bold">Hi, I'm <span class="highlight">Sathish</span></h1>
+                    <h2 class="typed-text-output"></h2>
+                    <h2>I'm a <span class="typed-text"></span></h2>
+                    <p class="lead">3rd Year Computer Science Student</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary me-3">Contact Me</a>
+                        <a href="#projects" class="btn btn-outline-primary">View Projects</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-img-container">
+                        <img src="/images/Screenshot 2025-05-10 120129.png?height=400&width=400" alt="Profile" class="img-fluid hero-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-5" data-aos="fade-right" data-aos-delay="100">
+                    <div class="about-img">
+                        <img src="/images/360_F_819560137_n73z64tGXZLcPTEN0jZkrHxlwR2w0IUP.jpg?height=900&width=400" alt="About Me" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-md-7" data-aos="fade-left" data-aos-delay="200">
+                    <div class="about-content">
+                        <h3>A passionate Computer Science student</h3>
+                        <p>I am a 3rd-year Computer Science student with a passion for creating innovative solutions through technology. My journey in the world of programming began when I was in high school, and since then, I've been constantly learning and improving my skills.</p>
+                        <p>I specialize in web development and have experience with various programming languages and frameworks. I enjoy solving complex problems and turning ideas into reality through code.</p>
+                        <div class="row about-info mt-4">
+                            <div class="col-md-6">
+                                <p><strong>Name:</strong> Sathish</p>
+                                <p><strong>Email:</strong> sathishrajan500.com</p>
+                                <p><strong>Phone:</strong> +91 9976863735</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><strong>Degree:</strong> Bachelor of Computer Science</p>
+                                <p><strong>Major:</strong> Computer Science</p>
+                                <p><strong>Location:</strong> Cuddalore, Tamil Nadu</p>
+                            </div>
+                        </div>
+                        <div class="social-icons mt-4">
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>My Skills</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="skill-category mb-5">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <p>HTML/CSS</p>
+                                <p>70%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <p>JavaScript</p>
+                                <p>60%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <p>Java</p>
+                                <p>60%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <p>c++</p>
+                                <p>50%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="skill-category mb-5">
+                        <h3>Frameworks & Tools</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <p>Bootstrap</p>
+                                <p>95%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <p>React.js</p>
+                                <p>80%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <p>Node.js</p>
+                                <p>70%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <p>Git & GitHub</p>
+                                <p>85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="skills-cloud text-center" data-aos="zoom-in" data-aos-delay="300">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">c++</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">RESTful API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>My Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <div class="project-filters text-center" data-aos="fade-up" data-aos-delay="100">
+                        <but class="btn filter-btn" data-filter="web">Web Development</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row project-container">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4 project-item web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h4>AI ATS EVALUATOR</h4>
+                            <p>A fully responsive ats evaluator website built with Next.js, GPT-4o, Redis, React, Chart.js</p>
+                            <div class="project-tech">
+                                <span>Next.js</span>
+                                <span>GPT-4o</span>
+                                <span>React</span>
+                                <span>Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 mb-4 project-item app" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h4>Security System</h4>
+                            <p>A Security System application built with HTML,CSS,BOOTSTRAP & JavaScript</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>BOOTSTRAP</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 mb-4 project-item design" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h4>Portfolio Design</h4>
+                            <p>A modern portfolio design with smooth animations and responsive layout.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Education & Experience</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="timeline-section">
+                        <h3 class="timeline-title">Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Bachelor of Computer Science & Engineering</h4>
+                                    <h5>PSNA College of Engineering & Technology</h5>
+                                    <p class="timeline-date">2023 - Present</p>
+                                    <p>Currently pursuing a degree in Computer Science with a focus on web development and artificial intelligence.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Diploma in Mechanical Engineering</h4>
+                                    <h5>Vigneshwara Polytechnic College</h5>
+                                    <p class="timeline-date">2017 - 2020</p>
+                                    <p>Completed an associate degree with a focus on mechanical systems, manufacturing processes, and engineering fundamentals.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="timeline-section">
+                        <h3 class="timeline-title">Experience</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Web Development Intern</h4>
+                                    <h5>Coderz Vision Technology</h5>
+                                    <p class="timeline-date">Jan 2025 – Feb 2025</p>
+                                    <p>Assisted in developing and maintaining client websites. Worked with HTML, CSS, JavaScript, and Bootstrap.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Web Development Intern</h4>
+                                    <h5>ShadowFox</h5>
+                                    <p class="timeline-date">Jan 2025</p>
+                                    <p>Assisted in developing and maintaining client websites. Worked with HTML, CSS, JavaScript, and Bootstrap.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Contact Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-5" data-aos="fade-right" data-aos-delay="100">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>Feel free to reach out to me for any questions or opportunities. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="text">
+                                <h5>Location</h5>
+                                <p>Cuddalore, Tamil Nadu</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div class="text">
+                                <h5>Email</h5>
+                                <p>sathishrajan500.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-phone"></i></div>
+                            <div class="text">
+                                <h5>Phone</h5>
+                                <p>+91 9976863735</p>
+                            </div>
+                        </div>
+                        <div class="social-icons mt-4">
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7" data-aos="fade-left" data-aos-delay="200">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Sathish</h3>
+                    <p>A passionate Computer Science student</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2023 Sathish. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
