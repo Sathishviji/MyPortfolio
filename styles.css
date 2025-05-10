@@ -189,13 +189,10 @@ a:hover {
   overflow: hidden;
   box-shadow: var(--box-shadow);
 }
-<<<<<<< HEAD
 .img-fluid {
   max-width: 100%;
   height: 500px;
 }
-=======
->>>>>>> 2751b582cbab3b738a33be5fcb96691af7bb21d2
 
 @keyframes morph {
   0% {
